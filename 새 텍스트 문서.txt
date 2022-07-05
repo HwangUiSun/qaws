@@ -1,0 +1,22 @@
+github 간략 사용 설명서
+
+1. 이클립스에서 clone 으로 repo 받기
+
+프로젝트 import -> Git -> Project from git (smart~) -> cloneURI -> URI에 깃허브에서 복사한 URI 첨부 그 후 계속 Next 하면 끝
+
+2. 깃허브 데스크탑, 깃배스 등 다른 툴 이용하여 commit push pull 하기
+
+(깃허브 데스크탑 기준)
+add local repository 을 클릭하여 방금전에 설치한 프로젝트 경로로 설정한다.
+그 후 브런치를 생성한다. Current Brunch에 본인이 설정한 이름이 되어 있어야 한다 그래야 이클립스 수정이 설정한 브랜치로 수정된다. 
+( Current Brunch에서 브랜치들을 바꿔보면 폴더들이 브랜치마다 다른걸 확인 할 수 있음)
+그리고 나서 이클립스에서 수정하면 깃 데스크탑 Change에 변경된 사항이 보인다. 밑에 설명을 위한 msg를 적고 commti to (브런치이름)을 클릭 -- 여기까지가 commit 과정
+Current Brunch 옆에 Push를 누른다.
+
+main 브랜치에 합류하기 위한 Pull Requset 작업
+
+commit과 push 완료 후 main 브렌치에 적용된 코드들을 합치기 위해서 말 그래도 Pull를 요청하는 것
+Pull request를 누른후 작성 Reviewers에서 리뷰어들 클릭 
+넣어야야 하는 이유는 이 요청을 받은 리뷰어들이  승인을 해주어야만 main브랜치에 merge가 되기때문
+Files changed에서 변경된 코드, 파일들을 확인 후 Review change에서 리뷰와 승인하면 된다.
+그 후 승인이 다 달렸으면 merge를 눌러 main 브랜치와 합치면 된다.
