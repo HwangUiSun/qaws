@@ -18,4 +18,5 @@ main 브랜치에 합류하기 위한 Pull Requset 작업
 commit과 push 완료 후 main 브렌치에 적용된 코드들을 합치기 위해서 말 그래도 Pull를 요청하는 것
 Pull request를 누른후 작성 Reviewers에서 리뷰어들 클릭 
 넣어야야 하는 이유는 이 요청을 받은 리뷰어들이  승인을 해주어야만 main브랜치에 merge가 되기때문
+Files changed에서 변경된 코드, 파일들을 확인 후 Review change에서 리뷰와 승인하면 된다.
 그 후 승인이 다 달렸으면 merge를 눌러 main 브랜치와 합치면 된다.
