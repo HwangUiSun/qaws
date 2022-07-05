@@ -11,7 +11,9 @@
 </head>
 <body>
 <div id='index'>
+
 	<h1>반갑습니다-h</h1>
+
 	
 
 	<c:choose>
