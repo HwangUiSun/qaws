@@ -13,7 +13,7 @@
 <div id='index'>
 
 	<h1>반갑습니다-h</h1>
-
+	<h1>뭘까요</h1>
 	
 
 	<c:choose>
